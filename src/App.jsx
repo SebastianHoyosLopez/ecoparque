@@ -12,6 +12,9 @@ function App() {
           <Route path="/" exact>
             <Inicio />
           </Route>
+          <Route path="/ecoparque" exact>
+            <Inicio />
+          </Route>
           <Route path="/conocenos">
             conocenos
             <hr />
