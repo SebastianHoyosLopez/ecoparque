@@ -14,12 +14,16 @@ const Inicio = () => {
       service: "Recorridos Turisticos",
       description:
         "Tenemos excelente servicio de guias con grandes atractivos del ecoturismo",
+      img: "https://imgur.com/oHk9Wgo.jpg",
     },
   };
 
   const hospedaje = servicios.hospedaje.service;
   const imgCabañas = servicios.hospedaje.img;
-  const descriptionHospedaje = servicios.hospedaje.description
+  const descriptionHospedaje = servicios.hospedaje.description;
+  const recorridos = servicios.recorridos.service;
+  const descriptionRecorridos = servicios.recorridos.description;
+  const imgRecorridos = servicios.recorridos.img;
 
   return (
     <>
@@ -59,7 +63,24 @@ const Inicio = () => {
           </div>
         </div>
       </div>
-      <Catalogo hospedaje={hospedaje} imgCabañas={imgCabañas} descriptionHospedaje={descriptionHospedaje} />
+      <div className="container">
+        <div className="row">
+          <div className="col-6">
+            <Catalogo
+              service={hospedaje}
+              description={descriptionHospedaje}
+              img={imgCabañas}
+            />
+          </div>
+          <div className="col-6">
+            <Catalogo
+              service={recorridos}
+              description={descriptionRecorridos}
+              img={imgRecorridos}
+            />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
