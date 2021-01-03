@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ecoparte/static/css/main.2a98d29a.chunk.css",
+    "main.js": "/ecoparte/static/js/main.893a9cce.chunk.js",
+    "main.js.map": "/ecoparte/static/js/main.893a9cce.chunk.js.map",
+    "runtime-main.js": "/ecoparte/static/js/runtime-main.6e13f7f2.js",
+    "runtime-main.js.map": "/ecoparte/static/js/runtime-main.6e13f7f2.js.map",
+    "static/js/2.f68d78eb.chunk.js": "/ecoparte/static/js/2.f68d78eb.chunk.js",
+    "static/js/2.f68d78eb.chunk.js.map": "/ecoparte/static/js/2.f68d78eb.chunk.js.map",
+    "index.html": "/ecoparte/index.html",
+    "static/css/main.2a98d29a.chunk.css.map": "/ecoparte/static/css/main.2a98d29a.chunk.css.map",
+    "static/js/2.f68d78eb.chunk.js.LICENSE.txt": "/ecoparte/static/js/2.f68d78eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e13f7f2.js",
+    "static/js/2.f68d78eb.chunk.js",
+    "static/css/main.2a98d29a.chunk.css",
+    "static/js/main.893a9cce.chunk.js"
+  ]
+}
