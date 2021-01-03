@@ -7,23 +7,35 @@ const Inicio = () => {
   const servicios = {
     hospedaje: {
       service: "Cabañas",
-      description: "Puedes encontrar alojamiento en nuestras hermosas cabañas",
+      description:
+        "Puedes encontrar alojamiento en nuestras hermosas cabañas y disfrutar de hermosos paisajes",
       img: "https://imgur.com/g8YxlfB.jpg",
     },
     recorridos: {
-      service: "Recorridos Turisticos",
+      service: "Recorridos",
       description:
-        "Tenemos excelente servicio de guias con grandes atractivos del ecoturismo",
+        "Tenemos excelente servicio de guias turisticos y los mejores sitios para esta actividad",
       img: "https://imgur.com/oHk9Wgo.jpg",
+    },
+    camping: {
+      service: "Camping",
+      description:
+        "Encuentra grandes espacios para realizar esta actividad y disfruta de lo natural",
+      img: "https://imgur.com/lFkyaOn.jpg",
     },
   };
 
   const hospedaje = servicios.hospedaje.service;
   const imgCabañas = servicios.hospedaje.img;
   const descriptionHospedaje = servicios.hospedaje.description;
+
   const recorridos = servicios.recorridos.service;
   const descriptionRecorridos = servicios.recorridos.description;
   const imgRecorridos = servicios.recorridos.img;
+
+  const camping = servicios.camping.service;
+  const descriptionCamping = servicios.camping.description;
+  const imgCamping = servicios.camping.img;
 
   return (
     <>
@@ -65,18 +77,25 @@ const Inicio = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-4">
             <Catalogo
               service={hospedaje}
               description={descriptionHospedaje}
               img={imgCabañas}
             />
           </div>
-          <div className="col-6">
+          <div className="col-4">
             <Catalogo
               service={recorridos}
               description={descriptionRecorridos}
               img={imgRecorridos}
+            />
+          </div>
+          <div className="col-4">
+          <Catalogo
+              service={camping}
+              description={descriptionCamping}
+              img={imgCamping}
             />
           </div>
         </div>

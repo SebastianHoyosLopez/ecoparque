@@ -4,8 +4,8 @@ import { Card, Button } from "react-bootstrap";
 const Catalogo = (props) => {
   return (
     <div>
-      <Card className="my-5 mx-5" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={props.img} />
+      <Card className="my-5" style={{ width: "18rem" }}>
+        <Card.Img style={{ height: "160px" }} variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>
             <h1 className="text-center">{props.service}</h1>
