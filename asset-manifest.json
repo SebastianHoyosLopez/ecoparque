@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ecoparque/static/css/main.2a98d29a.chunk.css",
-    "main.js": "/ecoparque/static/js/main.f289dfbf.chunk.js",
-    "main.js.map": "/ecoparque/static/js/main.f289dfbf.chunk.js.map",
+    "main.js": "/ecoparque/static/js/main.47731756.chunk.js",
+    "main.js.map": "/ecoparque/static/js/main.47731756.chunk.js.map",
     "runtime-main.js": "/ecoparque/static/js/runtime-main.fb9c49ea.js",
     "runtime-main.js.map": "/ecoparque/static/js/runtime-main.fb9c49ea.js.map",
     "static/js/2.f68d78eb.chunk.js": "/ecoparque/static/js/2.f68d78eb.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.fb9c49ea.js",
     "static/js/2.f68d78eb.chunk.js",
     "static/css/main.2a98d29a.chunk.css",
-    "static/js/main.f289dfbf.chunk.js"
+    "static/js/main.47731756.chunk.js"
   ]
 }
