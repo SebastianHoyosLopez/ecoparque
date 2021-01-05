@@ -1,7 +1,8 @@
 #carousel img {
-    max-height: 70vh;
+    height: 360px;
     object-fit: cover;
     filter: grayscale(30%);
+    
 }
 
 #carousel {
@@ -18,5 +19,5 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     z-index: 2;
-    height: 430px;
+    height: 370px;
 }

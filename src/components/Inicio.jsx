@@ -39,63 +39,76 @@ const Inicio = () => {
 
   return (
     <>
-      <Carousel id="carousel">
-        <Carousel.Item interval={9000}>
-          <img
-            className="d-block w-100"
-            src="https://imgur.com/38wWu2b.jpg"
-            alt="imagenes de muestra"
-          />
-        </Carousel.Item>
-        <Carousel.Item interval={9000}>
-          <img
-            className="d-block w-100"
-            src="https://imgur.com/4Cf5dLD.jpg"
-            alt="imagenes de muestra"
-          />
-        </Carousel.Item>
-        <Carousel.Item interval={9000}>
-          <img
-            className="d-block w-100"
-            src="https://imgur.com/Z5kxI9X.jpg"
-            alt="imagenes de muestra"
-          />
-        </Carousel.Item>
-      </Carousel>
-      <div className="overlay pt-5 mt-5">
-        <div className="container">
-          <div className="row align-item-center">
-            <div className="col-md-6 offset-md-6 text-lg-right">
-              <h1>Puedes Acceder A Nuestras Instalaciones</h1>
-              <p className="d-none d-md-block">
-                Con nosotros puedes obtener un excelente plan para tus
-                vacaciones ecologicas
-              </p>
+      <div>
+        <Carousel id="carousel">
+          <Carousel.Item interval={9000}>
+            <img
+              className="d-block w-100"
+              src="https://imgur.com/38wWu2b.jpg"
+              alt="imagenes de muestra"
+            />
+          </Carousel.Item>
+          <Carousel.Item interval={9000}>
+            <img
+              className="d-block w-100"
+              src="https://imgur.com/4Cf5dLD.jpg"
+              alt="imagenes de muestra"
+            />
+          </Carousel.Item>
+          <Carousel.Item interval={9000}>
+            <img
+              className="d-block w-100"
+              src="https://imgur.com/Z5kxI9X.jpg"
+              alt="imagenes de muestra"
+            />
+          </Carousel.Item>
+        </Carousel>
+        <div className="overlay pt-5 mt-5">
+          <div className="container">
+            <div className="row align-item-center">
+              <div className="text-center">
+                <h1 className="text-sm-center mt-5">
+                  Vas a disfrutar de un lugar maravilloso
+                </h1>
+                <p className="d-none d-sm-block col-6 offset-3">
+                  Encontraras hermosos paisajes con afluentes de agua pura de
+                  las montañas, fauna silvestre en su
+                  explendor natural y una variedad de sitios para avistamiento de aves.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="container">
+      <hr />
+      <div className="container" id="catalogo1">
         <div className="row">
-          <div className="col-4">
+          <div className="col-12 col-md-6 col-xl-3 offset-4 offset-sm-4 offset-md-0 offset-xl-0">
             <Catalogo
               service={hospedaje}
               description={descriptionHospedaje}
               img={imgCabañas}
             />
           </div>
-          <div className="col-4">
+          <div className="col-12 col-md-6 col-xl-3 offset-12 offset-sm-4 offset-md-0 offset-xl-0">
             <Catalogo
               service={recorridos}
               description={descriptionRecorridos}
               img={imgRecorridos}
             />
           </div>
-          <div className="col-4">
-          <Catalogo
+          <div className="col-12 col-md-6 col-xl-3 offset-4 offset-sm-4 offset-md-0 offset-xl-0">
+            <Catalogo
               service={camping}
               description={descriptionCamping}
               img={imgCamping}
+            />
+          </div>
+          <div className="col-12 col-md-6 col-xl-3 offset-4 offset-sm-4 offset-md-0 offset-xl-0">
+            <Catalogo
+              service={hospedaje}
+              description={descriptionHospedaje}
+              img={imgCabañas}
             />
           </div>
         </div>
