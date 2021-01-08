@@ -1,13 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Inicio from "./components/Inicio";
-import Navbar from "./components/Navbar";
+import NavbarHome from "./components/NavbarHome";
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <div>
+      <NavbarHome />
         <Switch>
           <Route path="/" exact>
             <Inicio />
@@ -31,7 +30,6 @@ function App() {
             Reservas
           </Route>
         </Switch>
-      </div>
     </Router>
   );
 }

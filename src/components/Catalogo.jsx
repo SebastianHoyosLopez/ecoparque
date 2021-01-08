@@ -3,20 +3,20 @@ import { Card, Button } from "react-bootstrap";
 
 const Catalogo = (props) => {
   return (
-    <div>
-      <Card className="my-5" style={{ width: "15rem" }}>
+    <>
+      <Card className="my-5" style={{ width: "15rem", height:"400px"}}>
         <Card.Img style={{ height: "160px" }} variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>
             <h1 className="text-center">{props.service}</h1>
           </Card.Title>
           <Card.Text>{props.description}</Card.Text>
-          <Button variant="warning" size="lg" block>
+          <Button style={{width: "210px"}} variant="warning" size="lg" block>
             Reserva ya
           </Button>
         </Card.Body>
       </Card>
-    </div>
+    </>
   );
 };
 
