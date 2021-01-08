@@ -43,21 +43,21 @@ const Inicio = () => {
         <Carousel.Item interval={9000}>
           <img
             className="d-block w-100"
-            src="https://imgur.com/EadnMbS.jpg"
+            src="https://imgur.com/VAUPA0q.jpg"
             alt="imagenes de muestra"
           />
         </Carousel.Item>
         <Carousel.Item interval={9000}>
           <img
             className="d-block w-100"
-            src="https://imgur.com/OJMeX4c.jpg"
+            src="https://imgur.com/5Jl9MGp.jpg"
             alt="imagenes de muestra"
           />
         </Carousel.Item>
         <Carousel.Item interval={9000}>
           <img
             className="d-block w-100"
-            src="https://imgur.com/4Cf5dLD.jpg"
+            src="https://imgur.com/G1Rs3oL.jpg"
             alt="imagenes de muestra"
           />
         </Carousel.Item>
