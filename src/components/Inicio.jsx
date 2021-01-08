@@ -8,19 +8,19 @@ const Inicio = () => {
     hospedaje: {
       service: "Cabañas",
       description:
-        "Puedes encontrar alojamiento en nuestras hermosas cabañas y disfrutar de hermosos paisajes",
+        "Puedes encontrar alojamiento en nuestras hermosas cabañas y disfrutar de hermosos paisajes.",
       img: "https://imgur.com/g8YxlfB.jpg",
     },
     recorridos: {
       service: "Recorridos",
       description:
-        "Tenemos excelente servicio de guias turisticos y los mejores sitios para esta actividad",
+        "Tenemos excelente servicio de guias turisticos y los mejores sitios para esta actividad.",
       img: "https://imgur.com/oHk9Wgo.jpg",
     },
     camping: {
       service: "Camping",
       description:
-        "Encuentra grandes espacios para realizar esta actividad y disfruta de lo natural",
+        "Encuentra grandes espacios para realizar esta actividad y disfruta de la naturaleza en su explendor.",
       img: "https://imgur.com/lFkyaOn.jpg",
     },
   };
@@ -44,7 +44,14 @@ const Inicio = () => {
           <Carousel.Item interval={9000}>
             <img
               className="d-block w-100"
-              src="https://imgur.com/38wWu2b.jpg"
+              src="https://imgur.com/EadnMbS.jpg"
+              alt="imagenes de muestra"
+            />
+          </Carousel.Item>
+          <Carousel.Item interval={9000}>
+            <img
+              className="d-block w-100"
+              src="https://imgur.com/OJMeX4c.jpg"
               alt="imagenes de muestra"
             />
           </Carousel.Item>
@@ -52,13 +59,6 @@ const Inicio = () => {
             <img
               className="d-block w-100"
               src="https://imgur.com/4Cf5dLD.jpg"
-              alt="imagenes de muestra"
-            />
-          </Carousel.Item>
-          <Carousel.Item interval={9000}>
-            <img
-              className="d-block w-100"
-              src="https://imgur.com/Z5kxI9X.jpg"
               alt="imagenes de muestra"
             />
           </Carousel.Item>
@@ -70,7 +70,7 @@ const Inicio = () => {
                 <h1 className="text-sm-center mt-5">
                   Vas a disfrutar de un lugar maravilloso
                 </h1>
-                <p className="d-none d-sm-block col-6 offset-3">
+                <p className="d-flex d-sm-block col-6 offset-3">
                   Encontraras hermosos paisajes con afluentes de agua pura de
                   las montañas, fauna silvestre en su
                   explendor natural y una variedad de sitios para avistamiento de aves.
@@ -83,28 +83,28 @@ const Inicio = () => {
       <hr />
       <div className="container" id="catalogo1">
         <div className="row">
-          <div className="col-12 col-md-6 col-xl-3 offset-4 offset-sm-4 offset-md-0 offset-xl-0">
+          <div className="col-12 col-md-6 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
             <Catalogo
               service={hospedaje}
               description={descriptionHospedaje}
               img={imgCabañas}
             />
           </div>
-          <div className="col-12 col-md-6 col-xl-3 offset-12 offset-sm-4 offset-md-0 offset-xl-0">
+          <div className="col-12 col-md-6 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
             <Catalogo
               service={recorridos}
               description={descriptionRecorridos}
               img={imgRecorridos}
             />
           </div>
-          <div className="col-12 col-md-6 col-xl-3 offset-4 offset-sm-4 offset-md-0 offset-xl-0">
+          <div className="col-12 col-md-6 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
             <Catalogo
               service={camping}
               description={descriptionCamping}
               img={imgCamping}
             />
           </div>
-          <div className="col-12 col-md-6 col-xl-3 offset-4 offset-sm-4 offset-md-0 offset-xl-0">
+          <div className="col-12 col-md-6 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
             <Catalogo
               service={hospedaje}
               description={descriptionHospedaje}
