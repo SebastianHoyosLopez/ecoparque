@@ -82,7 +82,7 @@ const Inicio = () => {
       </div>
       <hr />
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="col-12 col-md-6 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
             <Catalogo
               service={hospedaje}

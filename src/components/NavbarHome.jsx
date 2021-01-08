@@ -5,7 +5,15 @@ import "./Navbar.css";
 
 const NavbarHome = () => {
   return (
+<<<<<<< Updated upstream
+<<<<<<< HEAD
     <Navbar bg="light" expand="lg"  sticky="top">
+=======
+    <Navbar bg="light" expand="lg">
+>>>>>>> b62b1fbb8efbbf6035dbb2e96245bc9dc282764d
+=======
+    <Navbar bg="light" expand="lg" sticky="top">
+>>>>>>> Stashed changes
       <Navbar.Brand>
         <Link className="navbar-brand" to="/">
           <img
