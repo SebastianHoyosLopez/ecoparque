@@ -39,7 +39,7 @@ const Inicio = () => {
 
   return (
     <>
-      <Carousel id="carousel">
+      <Carousel id="carousel" >
         <Carousel.Item interval={9000}>
           <img
             className="d-block w-100"
@@ -64,7 +64,7 @@ const Inicio = () => {
       </Carousel>
       <div className="overlay pt-3">
         <div className="container">
-          <div className="row align-item-center">
+          <div className="row">
             <div className="text-center">
               <h1 className="text-sm-center mt-5">
                 Vas a disfrutar de un lugar maravilloso

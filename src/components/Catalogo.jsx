@@ -3,8 +3,8 @@ import { Card, Button } from "react-bootstrap";
 
 const Catalogo = (props) => {
   return (
-    <>
-      <Card className="my-5" style={{ width: "16rem", height:"410px"}}>
+    <div className="pt-4" style={{width:"100%"}}>
+      <Card className="mx-5" style={{ width: "16rem", height:"410px"}}>
         <Card.Img style={{ height: "160px" }} variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>
@@ -16,7 +16,7 @@ const Catalogo = (props) => {
           </Button>
         </Card.Body>
       </Card>
-    </>
+    </div>
   );
 };
 
