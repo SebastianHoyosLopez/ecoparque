@@ -81,28 +81,28 @@ const Inicio = () => {
       <hr />
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-12 col-md-6 col-lg-3 offset-6 offset-sm-4 offset-md-0 offset-lg-0">
+          <div className="col-12 col-md-6 col-lg-3">
             <Catalogo
               service={hospedaje}
               description={descriptionHospedaje}
               img={imgCabañas}
             />
           </div>
-          <div className="col-12 col-md-6 col-lg-3 offset-6 offset-sm-4 offset-md-0 offset-lg-0">
+          <div className="col-12 col-md-6 col-lg-3">
             <Catalogo
               service={recorridos}
               description={descriptionRecorridos}
               img={imgRecorridos}
             />
           </div>
-          <div className="col-12 col-md-6 col-lg-3 offset-6 offset-sm-4 offset-md-0 offset-lg-0">
+          <div className="col-12 col-md-6 col-lg-3">
             <Catalogo
               service={camping}
               description={descriptionCamping}
               img={imgCamping}
             />
           </div>
-          <div className="col-12 col-md-6 col-lg-3 offset-6 offset-sm-4 offset-md-0 offset-lg-0">
+          <div className="col-12 col-md-6 col-lg-3">
             <Catalogo
               service={hospedaje}
               description={descriptionHospedaje}
