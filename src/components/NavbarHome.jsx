@@ -19,12 +19,12 @@ const NavbarHome = () => {
       </Navbar.Brand>
       <Navbar.Toggle arial-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" id="navbar">
-        <Nav className="ml-auto">
+        <Nav className="offset-xl-7">
             <NavLink className="btn btn-light mr-2" to="/" exact>
               Inicio
             </NavLink>
             <NavLink className="btn btn-light mr-2" to="/conocenos">
-              Conocenos
+              Nosotros
             </NavLink>
             <NavLink className="btn btn-light mr-2" to="/lugares">
               Lugares
