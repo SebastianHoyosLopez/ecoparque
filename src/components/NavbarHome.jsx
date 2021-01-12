@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 const NavbarHome = () => {
   return (
-    <Navbar bg="light" expand="lg"  sticky="top">
+    <Navbar bg="light" expand="md"  sticky="top">
       <Navbar.Brand>
         <Link className="navbar-brand" to="/">
           <img
@@ -18,12 +18,16 @@ const NavbarHome = () => {
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle arial-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" id="navbar">
-        <Nav className="ml-auto">
+      <Navbar.Collapse className="justify-content-md-end" id="basic-navbar-nav" id="navbar">
+        <Nav>
             <NavLink className="btn btn-light mr-2" to="/" exact>
               Inicio
             </NavLink>
+<<<<<<< HEAD
             <NavLink className="btn btn-light mr-2" to="/nosotros">
+=======
+            <NavLink className="btn btn-light mr-2" to="/conocenos">
+>>>>>>> e9a94e5a99322847701edbb11423e5962346fcc8
               Nosotros
             </NavLink>
             <NavLink className="btn btn-light mr-2" to="/lugares">
