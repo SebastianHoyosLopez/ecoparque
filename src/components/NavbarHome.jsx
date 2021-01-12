@@ -23,8 +23,8 @@ const NavbarHome = () => {
             <NavLink className="btn btn-light mr-2" to="/" exact>
               Inicio
             </NavLink>
-            <NavLink className="btn btn-light mr-2" to="/conocenos">
-              Conocenos
+            <NavLink className="btn btn-light mr-2" to="/nosotros">
+              Nosotros
             </NavLink>
             <NavLink className="btn btn-light mr-2" to="/lugares">
               Lugares
