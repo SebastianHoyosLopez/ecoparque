@@ -23,7 +23,11 @@ const NavbarHome = () => {
             <NavLink className="btn btn-light mr-2" to="/" exact>
               Inicio
             </NavLink>
+<<<<<<< HEAD
+            <NavLink className="btn btn-light mr-2" to="/nosotros">
+=======
             <NavLink className="btn btn-light mr-2" to="/conocenos">
+>>>>>>> e9a94e5a99322847701edbb11423e5962346fcc8
               Nosotros
             </NavLink>
             <NavLink className="btn btn-light mr-2" to="/lugares">
