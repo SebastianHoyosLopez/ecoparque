@@ -66,7 +66,7 @@ const Inicio = () => {
         <div className="container">
           <div className="row">
             <div className="text-center">
-              <h1 className="text-sm-center mt-5">
+              <h1 className="text-sm-center mt-3">
                 Aquí disfrutarás de un maravilloso lugar natural
               </h1>
               <p className="d-flex d-sm-block col-6 offset-3">
