@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ecoparque/static/css/main.b9494895.chunk.css",
-    "main.js": "/ecoparque/static/js/main.427fd3f9.chunk.js",
-    "main.js.map": "/ecoparque/static/js/main.427fd3f9.chunk.js.map",
+    "main.css": "/ecoparque/static/css/main.8b7a594c.chunk.css",
+    "main.js": "/ecoparque/static/js/main.cdb844ba.chunk.js",
+    "main.js.map": "/ecoparque/static/js/main.cdb844ba.chunk.js.map",
     "runtime-main.js": "/ecoparque/static/js/runtime-main.fb9c49ea.js",
     "runtime-main.js.map": "/ecoparque/static/js/runtime-main.fb9c49ea.js.map",
     "static/js/2.82e7e3a2.chunk.js": "/ecoparque/static/js/2.82e7e3a2.chunk.js",
     "static/js/2.82e7e3a2.chunk.js.map": "/ecoparque/static/js/2.82e7e3a2.chunk.js.map",
     "index.html": "/ecoparque/index.html",
-    "static/css/main.b9494895.chunk.css.map": "/ecoparque/static/css/main.b9494895.chunk.css.map",
+    "static/css/main.8b7a594c.chunk.css.map": "/ecoparque/static/css/main.8b7a594c.chunk.css.map",
     "static/js/2.82e7e3a2.chunk.js.LICENSE.txt": "/ecoparque/static/js/2.82e7e3a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fb9c49ea.js",
     "static/js/2.82e7e3a2.chunk.js",
-    "static/css/main.b9494895.chunk.css",
-    "static/js/main.427fd3f9.chunk.js"
+    "static/css/main.8b7a594c.chunk.css",
+    "static/js/main.cdb844ba.chunk.js"
   ]
 }
