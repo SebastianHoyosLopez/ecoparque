@@ -39,7 +39,7 @@ const Inicio = () => {
 
   return (
     <>
-      <Carousel id="carousel">
+      <Carousel id="carousel" className="carousel-fade">
         <Carousel.Item interval={9000}>
           <img
             className="d-block w-100"
