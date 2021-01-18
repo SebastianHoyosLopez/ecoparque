@@ -39,7 +39,8 @@ const Inicio = () => {
 
   return (
     <>
-      <Carousel id="carousel" className="carousel-fade">
+      <Carousel id="carousel" className="carousel-fade" autoPlay={true} controls={false} indicators={false}
+      >
         <Carousel.Item interval={9000}>
           <img
             className="d-block w-100"

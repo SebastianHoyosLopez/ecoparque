@@ -2,6 +2,7 @@
   height: 360px;
   filter: grayscale(30%);
   object-fit: cover;
+  display: none;
 }
 
 #carousel {

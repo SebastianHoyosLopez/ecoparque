@@ -30,7 +30,7 @@ const NavbarHome = () => {
               Lugares
             </NavLink>
             <NavLink className="btn btn-light mr-2" to="/contactanos">
-              Contáctanos
+              Contacto
             </NavLink>
             <NavLink className="btn btn-light mr-2" to="/reservas">
               Reservas
